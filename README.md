@@ -1,3 +1,5 @@
+convert model: tensorflowjs_converter --input_format=tf_saved_model --output_format=tfjs_graph_model ./model ./model_js
+
 # TensorFlow Image Classification API
 
 A Node.js Express server with TypeScript that serves a CIFAR-10 image classification model using TensorFlow.js.
